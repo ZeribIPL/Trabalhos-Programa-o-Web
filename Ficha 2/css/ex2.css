@@ -1,0 +1,22 @@
+body{
+    width:960px;
+    margin:auto;
+}
+#titulo{
+    font-family:monospace;
+}
+p{
+    font-family: sans-serif;
+}
+#link1{
+    color:red;
+}
+#link2{
+    color:blue;
+}
+#link3{
+    color:violet;
+}
+#link3:hover, #link2:hover, #link1:hover{
+    color:gold;
+}

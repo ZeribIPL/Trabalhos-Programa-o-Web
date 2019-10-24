@@ -1,0 +1,45 @@
+body{
+    width: 1000px;
+    margin:auto;
+}
+
+header{
+    background-color: green;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    background-color: green;
+    color:white;
+    width: 200px;
+    text-decoration: none;
+    font-family:monospace;
+    font-size:1.2em;
+    text-align: center;
+    margin: 0 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: rgba(0,128,0,0.3);
+}
+
+main div{
+    width:80%;
+    float: left;
+}
+
+main aside{
+    width:20%;
+    float: right;
+}

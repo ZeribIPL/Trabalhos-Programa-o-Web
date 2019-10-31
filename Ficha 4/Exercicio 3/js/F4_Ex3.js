@@ -29,11 +29,14 @@ function limparTemporizador () {
 }
 
 function proximaImagem () {
-
+    definirIndice(indice + 1);
+    atualizarImagem();
 }
 
 function atualizarImagem () {
+    var caminho = "imgs/imagem_" + indice + ".png";
 
+    imagem.attr("src", caminho);
 }
 
 function definirIndice (novo_indice) {
@@ -62,4 +65,5 @@ $(document).ready ( function () {
     $("button:eq(2)").click(btn_proximo());
     $("button:eq(3)").click(btn_anterior());
 
+    iniciarTemporizador();
 });

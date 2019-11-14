@@ -19,3 +19,17 @@
 .bg-grey {
     background-color: #f6f6f6;
 }
+
+.carousel-inner {
+    margin: 70px 0;
+    font-size: 19px;
+    line-height: 1.3em;
+}
+
+.carousel-indicators li.active{
+    border-color: red;
+}
+
+.carousel-control {
+    color: green;
+}
